@@ -12,6 +12,8 @@
 		]
 	},
 	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -30,5 +32,9 @@
 	"bugs": {
 		"url": "https://github.com/inspect-js/is-weakref/issues"
 	},
-	"homepage": "https://github.com/inspect-js/is-weakref#readme"
+	"homepage": "https://github.com/inspect-js/is-weakref#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^17.1.0",
+		"eslint": "^7.6.0"
+	}
 }
