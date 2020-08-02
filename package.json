@@ -42,5 +42,8 @@
 		"for-each": "^0.3.3",
 		"object-inspect": "^1.8.0",
 		"tape": "^5.0.1"
+	},
+	"dependencies": {
+		"es-abstract": "^1.17.6"
 	}
 }
