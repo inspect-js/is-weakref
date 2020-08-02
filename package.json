@@ -1,0 +1,34 @@
+{
+	"name": "is-weakref",
+	"version": "0.0.0",
+	"description": "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+	"main": "index.js",
+	"exports": {
+		".": [
+			{
+				"default": "./index.js"
+			},
+			"./index.js"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/is-weakref.git"
+	},
+	"keywords": [
+		"weakref",
+		"weak",
+		"ref",
+		"finalization",
+		"finalization registry"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/is-weakref/issues"
+	},
+	"homepage": "https://github.com/inspect-js/is-weakref#readme"
+}
