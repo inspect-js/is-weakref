@@ -30,6 +30,9 @@
 		"finalization registry"
 	],
 	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/inspect-js/is-weakref/issues"
