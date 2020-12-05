@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/inspect-js/is-weakref/compare/v1.0.0...v1.0.1) - 2020-12-04
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`05b4faa`](https://github.com/inspect-js/is-weakref/commit/05b4faa167c67f42c792e35c07adcb6b87e7dea0)
+- [Tests] run `nyc` on all tests [`8df2e4b`](https://github.com/inspect-js/is-weakref/commit/8df2e4bd66bb6b7d55f389f28e6bb167fe1deb5a)
+- [actions] add "Allow Edits" workflow [`4a716b8`](https://github.com/inspect-js/is-weakref/commit/4a716b8fcc025fe889a0f09ccaee7a9f748b1c66)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `object-inspect` [`be23cf3`](https://github.com/inspect-js/is-weakref/commit/be23cf305f46db8b1c8a26d1c74b096fdba00056)
+- [Refactor] use `call-bind` instead of `es-abstract` [`a933a96`](https://github.com/inspect-js/is-weakref/commit/a933a9643ddf7cddfd9f9f3cf44d675cc4c86ce5)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`4473ed2`](https://github.com/inspect-js/is-weakref/commit/4473ed2e73fed47cd2fa42b8d9cac17e941d2c08)
+- [readme] remove travis badge [`bd3bfcd`](https://github.com/inspect-js/is-weakref/commit/bd3bfcd2c187099d2215232a7621fb960e1e2807)
+
 ## v1.0.0 - 2020-08-01
 
 ### Commits
