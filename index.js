@@ -1,8 +1,8 @@
 'use strict';
 
-var callBind = require('es-abstract/helpers/callBind');
+var callBound = require('call-bind/callBound');
 
-var $deref = typeof WeakRef === 'undefined' ? null : callBind(WeakRef.prototype.deref);
+var $deref = callBound('WeakRef.prototype.deref', true);
 
 module.exports = typeof WeakRef === 'undefined'
 	? function isWeakRef(value) { // eslint-disable-line no-unused-vars
