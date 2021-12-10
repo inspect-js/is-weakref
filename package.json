@@ -1,6 +1,6 @@
 {
 	"name": "is-weakref",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"main": "index.js",
 	"exports": {
