@@ -4,12 +4,8 @@
 	"description": "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"main": "index.js",
 	"exports": {
-		".": [
-			{
-				"default": "./index.js"
-			},
-			"./index.js"
-		]
+		".": "./index.js",
+		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"version": "auto-changelog && git add CHANGELOG.md",
