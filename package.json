@@ -52,7 +52,7 @@
 		"tape": "^5.9.0"
 	},
 	"dependencies": {
-		"call-bind": "^1.0.2"
+		"call-bind": "^1.0.7"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
