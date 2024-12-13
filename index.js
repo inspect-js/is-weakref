@@ -4,8 +4,9 @@ var callBound = require('call-bound');
 
 var $deref = callBound('WeakRef.prototype.deref', true);
 
+/** @type {import('.')} */
 module.exports = typeof WeakRef === 'undefined'
-	? function isWeakRef(value) { // eslint-disable-line no-unused-vars
+	? function isWeakRef(_value) { // eslint-disable-line no-unused-vars
 		return false;
 	}
 	: function isWeakRef(value) {
