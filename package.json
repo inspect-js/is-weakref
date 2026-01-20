@@ -61,7 +61,7 @@
 		"typescript": "next"
 	},
 	"dependencies": {
-		"call-bound": "^1.0.3"
+		"call-bound": "^1.0.4"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
